@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.nav-fixed{
+  @apply fixed z-[9999] bg-white bg-opacity-30 shadow-sm ;
+  backdrop-filter: blur(10px);
+}
+
+.sidebar-btn{
+  @apply md:px-4 md:py-3 p-2 my-2 mx-[6px] rounded-full bg-neutral-50 md:ring-[2px] ring-neutral-700 hover:scale-110 transition duration-200;
+}
+
+.sidebar-prnt{
+  @apply rounded-full bg-neutral-200 bg-opacity-50 px-[4px] md:bg-transparent;
+  backdrop-filter: blur(5px);
+}
+
+.skill-logo{
+  @apply grayscale hover:grayscale-0 hover:scale-110 transition duration-300 opacity-80;
+}
+
+.swiper{
+  @apply w-[90%] h-[100%] my-9 rounded-lg shadow-lg;
+}
+
+.subjudul-project{
+  @apply text-xl text-footer font-semibold p-1 sm:text-2xl md:text-3xl
+}
+
+.swiper-pagination-bullet-active{
+  @apply w-[25px] rounded-2xl bg-gray-500 transition duration-300
+}
+
+canvas{
+  @apply absolute w-[100%] h-[100%] top-0 right-0 left-0 bottom-0 -z-[1]
+}

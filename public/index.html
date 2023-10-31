@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dzulfikar Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="img/dzull-profil-rounded.png">
+  </head>
+  <body class="selection:bg-slate-300">
+    <!-- header -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4 ">
+            <a href="#home" class="block font-bold text-lg text-color py-4 sm:text-xl lg:text-2xl">Dzulfikar Portofolio Web.</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sidebar * bottombar-->
+    <nav class="fixed z-20 bottom-0 left-[50%] -translate-x-1/2 sm:left-10 sm:bottom-1/2 sm:translate-y-1/2">
+      <section class="pt-20" id="sidebar">
+        <div class="container">
+          <div class="sidebar-prnt flex items-center translate-x-1/5 md:translate-x-0 sm:flex-col">
+            <a href="#home" class="sidebar-btn" title="Home"><i class="fa-solid fa-house"></i></a>
+            <a href="#about" class="sidebar-btn" title="About Me"><i class="fa-solid fa-user px-[2px]"></i></a>
+            <a href="#skill" class="sidebar-btn" title="Skill"><i class="fa-solid fa-bars-progress px-[1px]"></i></a>
+            <a href="#project" class="sidebar-btn" title="Projects"><i class="fa-solid fa-file-code px-[3px]"></i></a>
+            <a href="#quotes" class="sidebar-btn" title="Quotes"><i class="fa-solid fa-quote-left px-[2px]"></i></a>
+            <a href="" class="sidebar-btn" title="Contact"><i class="fa-solid fa-envelope px-[1px]"></i></a>
+          </div>
+        </div>
+      </section>
+    </nav>
+
+    <div class="md:pl-20">
+      <!-- Main -->
+      <div id="particles-js"></div>
+      <section id="home" class="pt-20 ">
+        <div class="container mx-auto ">
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 self-center md:w-1/2">
+              <h1 class="font-semibold text-color md:text-xl">Hi Semua👋, Saya <span class="block text-dark text-4xl mt-1 lg:text-5xl">Dzulfikar</span></h1>
+              <h2 class="font-medium text-neutral-700 text-lg mb-5 md:text-xl">Student | Learning about web-designer & web developer</h2>
+              <p class="mb-10 font-medium text-secondDark leading-relaxed">Seorang Anak yang bercita-cita ingin menjadi front-end developer & Menguasai Javascript.</p>
+
+              <a href="#" class="px-8 py-3 bg-gradient-to-tr from-section from-38% via-color via-55% to-footer shadow-md font-semibold text-white rounded-full hover:shadow-lg hover:brightness-110 transition duration-300 ease-out"
+                >Hubungi Saya</a
+              >
+            </div>
+            <div class="w-full px-4 self-end md:w-1/2">
+              <div class="mt-5 relative md:mt-0 md:right-0">
+                <img src="img/avatar-fox-profile.png" alt="Fox-Avatar" class="max-w-full mx-auto" />
+                <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 sm:-translate-y-1/3 md:-translate-y-0 lg:-translate-y-1/3 sm:scale-125">
+                  <svg width="300px" height="300px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill="#B6FFFA"
+                      d="M33.9,-32.6C49.8,-27,72.7,-22,74,-13.3C75.3,-4.6,55,7.7,41.4,16.9C27.8,26.1,20.8,32.1,9.4,44.3C-2,56.5,-17.9,74.7,-32,75.2C-46.1,75.6,-58.4,58.2,-59.4,41.5C-60.5,24.9,-50.2,8.9,-48.3,-9.6C-46.3,-28.1,-52.5,-49.1,-45.9,-56.2C-39.2,-63.4,-19.6,-56.8,-5.3,-50.4C9,-44.1,18,-38.1,33.9,-32.6Z"
+                      transform="translate(100 100) scale(1.1)"
+                    />
+                  </svg>
+                </span>
+                <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 sm:-translate-y-1/3 md:-translate-y-0 lg:-translate-y-1/3 sm:scale-125">
+                  <svg width="300px" height="300px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#98E4FF" d="M43.2,-58.2C47.6,-47.7,37,-26.2,40.5,-7.1C43.9,12.1,61.3,28.8,61.4,41.7C61.4,54.7,44,64,29,61.7C13.9,59.4,1.2,45.6,-17.1,41.4C-35.4,37.2,-59.2,42.5,-66.9,35.5C-74.7,28.5,-66.5,9.1,-56.5,-3.4C-46.5,-16,-34.7,-21.7,-25,-31.2C-15.3,-40.7,-7.7,-54,5.9,-60.9C19.4,-67.9,38.7,-68.6,43.2,-58.2Z" transform="translate(100 100)" />
+                  </svg>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+
+      <!-- About -->
+      <section id="about" class="pt-11">
+        <div class="container mx-auto">
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-10 sm:w-1/2">
+              <h1 class="font-bold text-xl uppercase text-section mb-3">About Me</h1>
+              <h2 class="font-bold text-color text-2xl mb-4 max-w-md lg:text-3xl">Yuk, berkolaborasi dengan saya!</h2>
+              <p class="font-medium text-secondDark max-w-xl lg:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium repellendus libero quas, illum quos reiciendis?</p>
+            </div>
+            <div class="w-full px-4 pt-4 mb-10 sm:w-1/2">
+              <h2 class="font-semibold text-xl mb-3 text-color pt-5 lg:text-2xl">Mari Berteman!</h2>
+              <p class="font-medium text-secondDark mb-6 lg:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt odit minima architecto fugiat animi expedita natus</p>
+              <div class="flex">
+                <!-- Instagram -->
+                <a href="https://instagram.com/dzullfi.24" target="_blank" class="w-9 h-9 mr-3 flex rounded-full -skew-y-12 bg-neutral-100 hover:bg-purple-100 hover:skew-y-0 hover:text-purple-800 transition-all duration-300">
+                  <svg role="img" width="20px" height="20px" class="fill-current m-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Instagram</title>
+                    <path
+                      d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                    />
+                  </svg>
+                </a>
+                <!-- Facebook
+              <a href="https://github.com/dzulfikar2403" target="_blank" class="w-9 h-9 mr-3 flex rounded-full -skew-y-12 bg-neutral-100 hover:bg-blue-100 hover:skew-y-0 hover:text-blue-500 transition-all duration-300">
+                <svg role="img" width="20px" height="20px" class="fill-current m-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+              </a> -->
+                <!-- Github -->
+                <a href="https://github.com/dzulfikar2403" target="_blank" class="w-9 h-9 mr-3 flex rounded-full -skew-y-12 bg-neutral-100 hover:bg-neutral-200 hover:skew-y-0 hover:text-dark transition-all duration-300">
+                  <svg role="img" width="20px" height="20px" class="fill-current m-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>GitHub</title>
+                    <path
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Skill Section -->
+    <section id="skill">
+      <div class="container bg-slate-600 relative z-10 flex justify-center max-w-full h-1/2 sm:block">
+        <div class="max-w-xs flex flex-col p-4 sm:max-w-full">
+          <h1 class="font-bold text-section text-center text-lg p-4 mt-4 font-sans uppercase sm:text-xl ">Skills</h1>
+          <h1 class="text-teal-50 font-bold text-2xl text-center mb-3 sm:text-3xl md:text-4xl">Skills dapat berubah Seiring Waktu 👌</h1>
+          <h3 class="max-w-sm text-center mx-auto text-slate-400 md:text-lg">Berfokus pada frontend, tapi bukan jadi halangan untuk belajar backend</h3>
+          <div class="grid grid-cols-3 gap-7 my-11 mx-auto md:flex lg:gap-11">
+            <!-- html -->
+            <a href="#" class="skill-logo">
+              <img src="img/skill/html-icon.svg" alt="HTML" title="HTML" width="40px" height="40px" />
+            </a>
+            <!-- css -->
+            <a href="#" class="skill-logo">
+              <img src="img/skill/css-icon.svg" alt="CSS" title="CSS" width="40px" height="40px" />
+            </a>
+            <!-- tailwind -->
+            <a href="#" class="skill-logo">
+              <img src="img/skill/tailwindcss-icon-svgrepo-com.svg" alt="Tailwind" title="tailwindCSS" width="40px" height="40px" />
+            </a>
+            <!-- Bootstrap -->
+            <a href="#" class="skill-logo">
+              <img src="img/skill/BootStrap logo.svg" alt="Bootstrap" title="Bootstrap" width="50px" height="50px" />
+            </a>
+            <!-- figma -->
+            <a href="#" class="skill-logo">
+              <img src="img/skill/figma-svgrepo-com.svg" alt="Figma" title="Figma" width="40px" height="40px" />
+            </a>
+            <!-- Adobe Ilustrator -->
+            <a href="#" class="skill-logo">
+              <img src="img/skill/Adobe_Illustrator_CC_icon.svg" alt="Figma" title="Adobe Ilustrator" width="40px" height="40px" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section id="project" class="py-16">
+      <div class="container relative w-full flex flex-col justify-center items-center mx-auto">
+        <div class="py-16 text-center">
+          <h1 class="text-lg font-bold font-sans text-section uppercase py-2 sm:text-xl ">Projects</h1>
+          <h3 class="text-2xl font-bold py-2 sm:max-w-none sm:text-2xl">Since 2022</h3>
+          <h3 class="max-w-xs flex font-bold py-3 sm:max-w-none sm:text-lg">To Me in the Future, I Hope you to be a Great Programer 😁</h3>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="shadow-lg w-full bg-white ">
+                <div class="relative group">
+                  <img src="img/avatar-fox-profile.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
+                  <a href="#" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
+                </div>
+              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <h2 class="subjudul-project">Project 1</h2>
+                <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste. Lorem ipsum dolor sit amet consectetur</span>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shadow-lg w-full bg-white ">
+                <div class="relative group">
+                  <img src="img/avatar-fox-profile.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
+                  <a href="#" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
+                </div>
+              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <h2 class="subjudul-project">Project 1</h2>
+                <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste. Lorem ipsum dolor sit amet consectetur</span>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shadow-lg w-full bg-white ">
+                <div class="relative group">
+                  <img src="img/avatar-fox-profile.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
+                  <a href="#" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
+                </div>
+              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <h2 class="subjudul-project">Project 1</h2>
+                <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste. Lorem ipsum dolor sit amet consectetur</span>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shadow-lg w-full bg-white ">
+                <div class="relative group">
+                  <img src="img/profile-hero.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
+                  <a href="#" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
+                </div>
+              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <h2 class="subjudul-project">Project 1</h2>
+                <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste. Lorem ipsum dolor sit amet consectetur</span>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shadow-lg w-full bg-white ">
+                <div class="relative group">
+                  <img src="img/profile-hero.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
+                  <a href="#" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
+                </div>
+              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <h2 class="subjudul-project">Project 1</h2>
+                <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste. Lorem ipsum dolor sit amet consectetur</span>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shadow-lg w-full bg-white ">
+                <div class="relative group">
+                  <img src="img/profile-hero.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
+                  <a href="#" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
+                </div>
+              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <h2 class="subjudul-project">Project 1</h2>
+                <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, iste. Lorem ipsum dolor sit amet consectetur</span>
+              </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="pagination_ absolute w-full bottom-0">
+          <!-- If we need pagination -->
+          <div class="swiper-pagination mt-4"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Quotes -->
+    <section id="quotes" class="py-24">
+      <div class="container mx-auto">
+        <div class="w-full px-4 flex flex-col text-center justify-center items-center">
+          <div class="font-sans"> 
+            <span class="text-3xl py-2 md:text-5xl lg:text-6xl"><i class="fa-solid fa-quote-left" style="color: #46b48a;"></i></span>
+            <h1 class="py-1 font-bold text-xl md:text-2xl lg:text-3xl">Dzulfikar Omar Y.</h1>
+            <h3 class="text-sm text-teal-500 md:text-xl">Student of Vocational High School</h3> 
+          </div>
+          <div class=" py-7 w-full font-light italic xl:w-1/2 px-4">
+            <span class="text-4xl grayscale md:text-5xl lg:text-6xl">If You Can Compete, You Must Colaborate!</span>
+          </div>
+          <div class="py-2">
+            <img src="img/dzull-profil-rounded.png" alt="profile" class="overflow-hidden rounded-full object-cover object-center ring-2 ring-teal-700 w-10 h-10"  >
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contacts -->
+    <section id="contact" class="py-28 sm:py-32">
+      <div class="w-full px-4 flex flex-col text-center justify-center">
+        <div class="mx-auto">
+          <h1 class="text-lg font-bold font-sans text-section uppercase py-2 sm:text-xl ">Contact</h1>
+          <h3 class="text-2xl font-bold py-2 sm:max-w-none sm:text-2xl">Hubungi lewat sini!</h3>
+          <p class="max-w-sm text-sm text-secondDark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae adipisci.</p>
+        </div>
+        <form action="" class="py-4 max-w-2xl relative left-[50%] -translate-x-[50%]">
+          <div class="w-full px-4 py-3 text-start">
+            <label for="nama" class="cursor-pointer font-semibold text-color">Nama</label>
+            <input type="text" class="bg-slate-200 py-1 px-2 w-full rounded focus:outline-none focus:ring-1 focus:ring-cyan-400" id="nama" required>
+          </div>
+          <div class="w-full px-4 py-3 text-start">
+            <label for="email" class="cursor-pointer font-semibold text-color">email</label>
+            <input type="email" class="bg-slate-200 py-1 px-2 w-full rounded focus:outline-none focus:ring-1 focus:ring-cyan-400" id="email"" required>
+          </div>
+          <div class="w-full px-4 py-3 text-start">
+            <label for="textArea" class="cursor-pointer font-semibold text-color">Pesan</label>
+            <textarea type="text" class="bg-slate-200 py-1 h-28 px-2 w-full rounded focus:outline-none focus:ring-1 focus:ring-cyan-400" id="textArea""></textarea>
+          </div>
+          <div class="w-full px-4">
+            <button type="submit" class="w-1/2 py-1 bg-gradient-to-tr from-section from-38% via-color via-55% to-footer shadow-sm font-semibold text-white rounded-full hover:shadow-md hover:brightness-110 transition duration-300 ease-out">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="flex flex-wrap text-center bg-indigo-950 ">
+        <div class="w-full px-4 py-5 md:w-1/3 text-neutral-400">
+          <h2 class="text-yellow-400 text-bold text-xl py-2">Dzul.Portfolio</h2>
+          <span class="text-slate-500 py-1 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis quam cumque eveniet, ratione possimus?</span>
+          <div class="flex gap-3 py-3 ">
+            <span><svg role="img" width="20px" height="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span>
+            <span><svg role="img" width="20px" height="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></span>
+            <span><svg role="img" width="20px" height="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></span>
+          </div>
+        </div>
+        <div class="w-full px-4 py-5 md:w-1/3">
+          <ul class="text-slate-400">
+            <li class="py-4">
+              <span><i class="fa-solid fa-location-dot  p-2 rounded bg-slate-300"></i> jl.abdul wahab perum telaga jambu,Sawangan,depok</span>
+            </li>
+            <li class="py-4">
+              <span><i class="fa-solid fa-phone  p-2 rounded bg-slate-300"></i> jl.abdul wahab perum telaga jambu,Sawangan,depok</span>
+            </li>
+            <li class="py-4">
+              <a class="text-cyan-500"><i class="fa-solid fa-envelope text-slate-500 p-2 rounded bg-slate-300"></i> dzulfikar2403@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full px-4 py-5 md:w-1/3">
+          <h3 class="text-2xl text-white font-medium">Categories</h3>
+          <ul class="text-slate-400 ">
+            <li class="py-2"><p>Programing</p></li>
+            <li class="py-2"><p>Technology</p></li>
+            <li class="py-2"><p>Portfolio</p></li>
+          </ul>
+        </div>
+        <div class="w-full px-4 text-slate-400 pb-14 ">
+          <hr class=" bg-slate-400">
+          <div class="py-5 flex flex-wrap justify-center">
+            <h3 class="py-2">Copyright ©️ 2023 All Reserved by <span class="underline hover:text-cyan-500">Dzulfikar</span></h3>
+            <div class="flex justify-center items-center gap-4">
+              <h4 class="py-2">Made by </h4>
+                <span><i class="fa-brands fa-html5" style="color: #ed811d;"></i></span> 
+                <span><i class="fa-brands fa-css3-alt" style="color: #5c8ee6;"></i></span> 
+                <span><i class="fa-brands fa-square-js" style="color: #ffee2e;"></i></span> 
+                <span><img src="img/skill/tailwindcss-icon-svgrepo-com.svg" alt="" height="15px" width="15px"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
