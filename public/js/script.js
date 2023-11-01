@@ -18,6 +18,30 @@ window.onscroll = ()=>{
   // }
 }
 
+
+let btn = document.querySelector('#btn');
+let darkToggle = document.querySelector('#dark-toggle');
+let html = document.querySelector('html');
+
+btn.addEventListener('click',()=>{
+  html.classList.toggle('dark');
+  if(btn.checked){
+    darkToggle.style.transform = "translateX(100%)";
+    localStorage.theme = 'dark';
+  }else{
+    darkToggle.style.transform = "translateX(0)";
+    localStorage.theme = 'light';
+  }
+});
+
+if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  btn.checked = true;
+  darkToggle.style.transform = "translateX(100%)";
+} else {
+  btn.checked = false;
+  darkToggle.style.transform = "translateX(0)";
+}
+
 // swipper js
 const swiper = new Swiper('.swiper', {
   // Optional parameters
