@@ -1,3 +1,10 @@
+const data = [
+  {
+    name: "coffeList",
+    desc: "",
+  }
+]
+
 // original js
 window.onscroll = ()=>{
   let nav = document.querySelector('header');

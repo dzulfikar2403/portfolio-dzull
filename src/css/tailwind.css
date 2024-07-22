@@ -19,7 +19,7 @@ body {
 }
 
 .skill-logo{
-  @apply grayscale hover:grayscale-0 hover:scale-110 transition duration-300 opacity-80;
+  @apply hover:scale-110 transition duration-300 opacity-80;
 }
 
 .swiper{
