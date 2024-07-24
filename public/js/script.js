@@ -1,10 +1,3 @@
-const data = [
-  {
-    name: "coffeList",
-    desc: "",
-  }
-]
-
 // original js
 window.onscroll = ()=>{
   let nav = document.querySelector('header');
@@ -55,11 +48,9 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
   slidesPerView:1,
+  grabCursor: true,
   speed:2000,
   spaceBetween:15,
-  autoplay:{
-    duration:3000
-  },
   // And if we need scrollbar
   breakpoints:{
     768: {
