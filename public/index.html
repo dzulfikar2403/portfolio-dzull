@@ -18,18 +18,18 @@
   </head>
   <body class="selection:bg-slate-300 dark:selection:bg-slate-100">
     <!-- header -->
-    <header class="absolute bg-transparent w-full flex items-center z-10">
+    <header class="absolute z-10 flex items-center w-full bg-transparent">
       <div class="container">
-        <div class="flex items-center justify-between relative">
+        <div class="relative flex items-center justify-between">
           <div class="px-4 ">
-            <a href="#home" class="block font-bold text-lg text-color py-4 sm:text-xl lg:text-2xl">Dzul.Portfolio</a>
+            <a href="#home" class="block py-4 text-lg font-bold text-color sm:text-xl lg:text-2xl">Dzul.Portfolio</a>
           </div>
-          <div class="px-4 flex items-center">
+          <div class="flex items-center px-4">
             <span class="mr-2 text-xs sm:text-base"><i class="fa-solid fa-sun" style="color: #e7a413;"></i></span>
                 <input type="checkbox" class="hidden" id="btn">
                 <label for="btn">
                   <div id="dark-parent" class="rounded-full w-6 h-3 sm:w-7 sm:h-4 bg-slate-400 px-[2px] flex items-center ">
-                    <div id="dark-toggle" class="sm:w-3 sm:h-3 w-3 h-2 transition duration-300 rounded-full bg-slate-800"></div>
+                    <div id="dark-toggle" class="w-3 h-2 transition duration-300 rounded-full sm:w-3 sm:h-3 bg-slate-800"></div>
                   </div>
                 </label>
             <span class="ml-2 text-xs sm:text-base"><i class="fa-solid fa-moon" style="color: #4b78d2;"></i></span>
@@ -42,7 +42,7 @@
     <nav class="fixed z-20 bottom-0 left-[50%] -translate-x-1/2 sm:left-10 sm:bottom-1/2 sm:translate-y-1/2">
       <section class="pt-20" id="sidebar">
         <div class="container">
-          <div class="sidebar-prnt flex items-center translate-x-1/5 md:translate-x-0 sm:flex-col">
+          <div class="flex items-center sidebar-prnt translate-x-1/5 md:translate-x-0 sm:flex-col">
             <a href="#home" class="sidebar-btn" title="Home"><i class="fa-solid fa-house"></i></a>
             <a href="#about" class="sidebar-btn" title="About Me"><i class="fa-solid fa-user px-[2px]"></i></a>
             <a href="#skill" class="sidebar-btn" title="Skill"><i class="fa-solid fa-bars-progress px-[1px]"></i></a>
@@ -60,18 +60,18 @@
       <section id="home" class="pt-20 ">
         <div class="container mx-auto ">
           <div class="flex flex-wrap">
-            <div class="w-full px-4 self-center md:w-1/2">
-              <h1 class="font-semibold text-color md:text-xl">Hi Semua 👋, Saya <span class="block text-dark text-4xl mt-1 lg:text-5xl dark:text-white">Dzulfikar</span></h1>
-              <h2 class="font-medium text-neutral-700 text-lg mb-5 md:text-xl dark:text-neutral-300">Student | Learning about web development</h2>
-              <p class="mb-10 font-medium text-secondDark leading-relaxed">Seorang Anak yang bercita-cita ingin menjadi web developer & Mengimplementasikan banyak framework Javascript.</p>
+            <div class="self-center w-full px-4 md:w-1/2">
+              <h1 class="font-semibold text-color md:text-xl">Hi Semua 👋, Saya <span class="block mt-1 text-4xl text-dark lg:text-5xl dark:text-white">Dzulfikar</span></h1>
+              <h2 class="mb-5 text-lg font-medium text-neutral-700 md:text-xl dark:text-neutral-300">Student | Learning about web development</h2>
+              <p class="mb-10 font-medium leading-relaxed text-secondDark">Seorang Anak yang bercita-cita ingin menjadi web developer & Mengimplementasikan banyak framework Javascript.</p>
 
               <a href="img/CV - Dzulfikar Omar Yasir.pdf" target="_blank" class="px-8 py-3 bg-gradient-to-tr from-section from-38% via-color via-55% to-footer shadow-md font-semibold text-white rounded-full hover:shadow-lg hover:brightness-110 transition duration-300 ease-out"
                 >Hire Me</a
               >
             </div>
-            <div class="w-full px-4 self-end md:w-1/2">
-              <div class="mt-5 relative md:mt-0 md:right-0">
-                <img src="img/avatar-fox-profile.png" alt="Fox-Avatar" class="max-w-full mx-auto relative dark:z-10" />
+            <div class="self-end w-full px-4 md:w-1/2">
+              <div class="relative mt-5 md:mt-0 md:right-0">
+                <img src="img/avatar-fox-profile.png" alt="Fox-Avatar" class="relative max-w-full mx-auto dark:z-10" />
                 <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 sm:-translate-y-1/3 md:-translate-y-0 lg:-translate-y-1/3 sm:scale-125 dark:z-[1]">
                   <svg width="300px" height="300px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -98,17 +98,17 @@
         <div class="container mx-auto">
           <div class="flex flex-wrap">
             <div class="w-full px-4 mb-10 sm:w-1/2">
-              <h1 class="font-bold text-xl uppercase text-section mb-3">About Me</h1>
-              <h2 class="font-bold text-color text-2xl mb-4 max-w-md lg:text-3xl">Yuk, berkolaborasi dengan saya!</h2>
-              <p class="font-medium text-secondDark max-w-xl lg:text-lg">Saya adalah siswa SMK Taruna Bhakti Depok yang sangat antusias dalam mengetahui Hal baru, terutama di bidang teknologi JavaScript. Saya sangat tertarik untuk mendalami framework JavaScript, khususnya NEXT JS, dan bertekad untuk menguasai teknologi ini dengan baik.</p>
+              <h1 class="mb-3 text-xl font-bold uppercase text-section">About Me</h1>
+              <h2 class="max-w-md mb-4 text-2xl font-bold text-color lg:text-3xl">Yuk, berkolaborasi dengan saya!</h2>
+              <p class="max-w-xl font-medium text-secondDark lg:text-lg">Saya adalah siswa SMK Taruna Bhakti Depok yang sangat antusias dalam mengetahui Hal baru, terutama di bidang teknologi JavaScript. Saya sangat tertarik untuk mendalami framework JavaScript, khususnya NEXT JS, dan bertekad untuk menguasai teknologi ini dengan baik.</p>
             </div>
             <div class="w-full px-4 pt-4 mb-10 sm:w-1/2">
-              <h2 class="font-semibold text-xl mb-3 text-color pt-5 lg:text-2xl">Mari Berteman!</h2>
-              <p class="font-medium text-secondDark mb-6 lg:text-lg">Mari terhubung dengan saya untuk sharing pengetahuan dan pengalaman, serta menjalin kolaborasi yang bermanfaat di bidang teknologi dan pengembangan aplikasi web.</p>
+              <h2 class="pt-5 mb-3 text-xl font-semibold text-color lg:text-2xl">Mari Berteman!</h2>
+              <p class="mb-6 font-medium text-secondDark lg:text-lg">Mari terhubung dengan saya untuk sharing pengetahuan dan pengalaman, serta menjalin kolaborasi yang bermanfaat di bidang teknologi dan pengembangan aplikasi web.</p>
               <div class="flex">
                 <!-- Instagram -->
-                <a href="https://instagram.com/dzullfi.24" target="_blank" class="w-9 h-9 mr-3 flex rounded-full -skew-y-12 bg-neutral-100 hover:bg-purple-100 hover:skew-y-0 hover:text-purple-800 transition-all duration-300">
-                  <svg role="img" width="20px" height="20px" class="fill-current m-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <a href="https://instagram.com/dzullfi.24" target="_blank" class="flex mr-3 transition-all duration-300 -skew-y-12 rounded-full w-9 h-9 bg-neutral-100 hover:bg-purple-100 hover:skew-y-0 hover:text-purple-800">
+                  <svg role="img" width="20px" height="20px" class="m-auto fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Instagram</title>
                     <path
                       d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
@@ -116,14 +116,14 @@
                   </svg>
                 </a>
                 <!-- Linkedin -->
-                <a href="https://www.linkedin.com/in/dzulfikar-omar-yasir-368138319/" target="_blank" class="w-9 h-9 mr-3 flex rounded-full -skew-y-12 bg-neutral-100 hover:bg-blue-100 hover:skew-y-0 hover:text-blue-800 transition-all duration-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 50 50" class="fill-current m-auto">
+                <a href="https://www.linkedin.com/in/dzulfikar-omar-yasir-368138319/" target="_blank" class="flex mr-3 transition-all duration-300 -skew-y-12 rounded-full w-9 h-9 bg-neutral-100 hover:bg-blue-100 hover:skew-y-0 hover:text-blue-800">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 50 50" class="m-auto fill-current">
                     <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
                   </svg>  
                 </a>
                 <!-- Github -->
-                <a href="https://github.com/dzulfikar2403" target="_blank" class="w-9 h-9 mr-3 flex rounded-full -skew-y-12 bg-neutral-100 hover:bg-neutral-200 hover:skew-y-0 hover:text-dark transition-all duration-300">
-                  <svg role="img" width="20px" height="20px" class="fill-current m-auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <a href="https://github.com/dzulfikar2403" target="_blank" class="flex mr-3 transition-all duration-300 -skew-y-12 rounded-full w-9 h-9 bg-neutral-100 hover:bg-neutral-200 hover:skew-y-0 hover:text-dark">
+                  <svg role="img" width="20px" height="20px" class="m-auto fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>GitHub</title>
                     <path
                       d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
@@ -139,12 +139,12 @@
 
     <!-- Skill Section -->
     <section id="skill">
-      <div class="container bg-slate-600 relative z-10 flex justify-center max-w-full h-1/2 sm:block dark:bg-stone-400">
-        <div class="max-w-xs flex flex-col p-4 sm:max-w-full">
-          <h1 class="font-bold text-section text-center text-lg p-4 mt-4 font-sans uppercase sm:text-xl ">Skills</h1>
-          <h1 class="text-teal-50 font-bold text-2xl text-center mb-3 sm:text-3xl md:text-4xl">Skills yang diimpemlentasikan</h1>
-          <h3 class="max-w-sm text-center mx-auto text-slate-400 md:text-lg dark:text-slate-100">learn-learn and practice</h3>
-          <div class="grid place-items-center grid-cols-3 gap-7 my-11 mx-auto md:grid-cols-5">
+      <div class="container relative z-10 flex justify-center max-w-full bg-slate-600 h-1/2 sm:block dark:bg-stone-400">
+        <div class="flex flex-col max-w-xs p-4 sm:max-w-full">
+          <h1 class="p-4 mt-4 font-sans text-lg font-bold text-center uppercase text-section sm:text-xl ">Skills</h1>
+          <h1 class="mb-3 text-2xl font-bold text-center text-teal-50 sm:text-3xl md:text-4xl">Skills yang diimpemlentasikan</h1>
+          <h3 class="max-w-sm mx-auto text-center text-slate-400 md:text-lg dark:text-slate-100">learn-learn and practice</h3>
+          <div class="grid grid-cols-3 mx-auto place-items-center gap-7 my-11 md:grid-cols-5">
             <!-- html -->
             <a href="#" class="skill-logo">
               <img src="img/skill/html-icon.svg" alt="HTML" title="HTML" width="50px" height="50px" />
@@ -169,13 +169,13 @@
             <a href="#" class="skill-logo">
               <img src="img/skill/react.svg" alt="React" title="React JS" width="50px" height="50px" />
             </a>
-            <!-- Redux Toolkit -->
-            <a href="#" class="skill-logo">
-              <img src="img/skill/redux.svg" alt="Redux Toolkit" title="Redux Toolkit" width="50px" height="50px" />
-            </a>
             <!-- NEXT JS -->
             <a href="#" class="skill-logo">
-              <img src="img/skill/next_js.svg" alt="next js" title="next js" width="50px" height="50px" />
+              <img src="img/skill/next_js.svg" alt="Next js" title="Next js" width="50px" height="50px" />
+            </a>
+            <!-- postgresQL -->
+            <a href="#" class="skill-logo">
+              <img src="img/skill/postgresql-icon.svg" alt="postgresQL" title="postgresQL" width="50px" height="50px" />
             </a>
             <!-- MongoDB -->
             <a href="#" class="skill-logo">
@@ -196,11 +196,11 @@
 
     <!-- Project -->
     <section id="project" class="py-16 dark:bg-dark">
-      <div class="container relative w-full flex flex-col justify-center items-center mx-auto">
+      <div class="container relative flex flex-col items-center justify-center w-full mx-auto">
         <div class="py-16 text-center">
-          <h1 class="text-lg font-bold font-sans text-section uppercase py-2 sm:text-xl ">Projects</h1>
-          <h3 class="text-2xl font-bold py-2 sm:max-w-none sm:text-2xl dark:text-white">Since 2022</h3>
-          <h3 class="max-w-xs flex font-bold py-3 sm:max-w-none sm:text-lg dark:text-white">To Me in the Future, I Hope you can be a Great Programer</h3>
+          <h1 class="py-2 font-sans text-lg font-bold uppercase text-section sm:text-xl ">Projects</h1>
+          <h3 class="py-2 text-2xl font-bold sm:max-w-none sm:text-2xl dark:text-white">Since 2022</h3>
+          <h3 class="flex max-w-xs py-3 font-bold sm:max-w-none sm:text-lg dark:text-white">To Me in the Future, I Hope you can be a Great Programer</h3>
         </div>
         <!-- Slider main container -->
         <div class="swiper">
@@ -208,101 +208,101 @@
           <div class="swiper-wrapper ">
             <!-- Slides -->
             <div class="swiper-slide ">
-              <div class="shadow-lg w-full bg-white dark:bg-yellow-50">
+              <div class="w-full bg-white shadow-lg dark:bg-yellow-50">
                 <div class="relative group">
                   <img src="img/project/auth_next_js_w_jose_jwt.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
                   <a href="https://github.com/dzulfikar2403/auth-app-router" target="_blank" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link" ></a>
                 </div>
-              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+              <div class="px-5 pt-5 rounded-b-lg pb-9">
                 <h2 class="subjudul-project">
                   <p>Auth Next JS</p>
-                  <span class="font-bold px-3 py-1 bg-slate-800 text-base text-white rounded-full">NEXT JS</span>
-                  <span class="font-bold px-3 py-1 bg-sky-600 text-base text-white rounded-full">TypeScript</span>
-                  <span class="font-bold px-3 py-1 bg-sky-400 text-base text-white rounded-full">Tailwind CSS</span>
-                  <span class="font-bold px-3 py-1 bg-slate-600 text-base text-white rounded-full">PostgresQL</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-slate-800">NEXT JS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-600">TypeScript</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-400">Tailwind CSS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-slate-600">PostgresQL</span>
                 </h2>
                 <span class="leading-relaxed text-slate-600 sm:text-lg h-52 md:text-xl">Authentikasi menggunakan jose package, implementasi middleware untuk route page & authorization api. serta mengolahnya dengan server action</span>
               </div>
               </div>
             </div>
             <div class="swiper-slide ">
-              <div class="shadow-lg w-full bg-white dark:bg-yellow-50">
+              <div class="w-full bg-white shadow-lg dark:bg-yellow-50">
                 <div class="relative group">
                   <img src="img/project/XIIPPLG2Web.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
                   <a href="https://github.com/dzulfikar2403/portoXIIPPLG2" target="_blank" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link" ></a>
                 </div>
-              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+              <div class="px-5 pt-5 rounded-b-lg pb-9">
                 <h2 class="subjudul-project">
                   <p>XIIPPLG2</p>
-                  <span class="font-bold px-3 py-1 bg-teal-600 text-base text-white rounded-full">MongoDB</span>
-                  <span class="font-bold px-3 py-1 bg-slate-700 text-base text-white rounded-full">Express JS</span>
-                  <span class="font-bold px-3 py-1 bg-sky-600 text-base text-white rounded-full">React JS</span>
-                  <span class="font-bold px-3 py-1 bg-green-600 text-base text-white rounded-full">Node JS</span>
-                  <span class="font-bold px-3 py-1 bg-sky-400 text-base text-white rounded-full">Tailwind CSS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white bg-teal-600 rounded-full">MongoDB</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-slate-700">Express JS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-600">React JS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white bg-green-600 rounded-full">Node JS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-400">Tailwind CSS</span>
                 </h2>
                 <span class="leading-relaxed text-slate-600 sm:text-lg h-52 md:text-xl">Portofolio kelas XII PPLG 2, menggunakan API express untuk komunikasi dan mongoDB untuk database. </span>
               </div>
               </div>
             </div>
             <div class="swiper-slide ">
-              <div class="shadow-lg w-full bg-white dark:bg-yellow-50">
+              <div class="w-full bg-white shadow-lg dark:bg-yellow-50">
                 <div class="relative group">
                   <img src="img/project/CoffeList.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
                   <a href="https://coffelist-dz.vercel.app/" target="_blank" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
                 </div>
-              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+              <div class="px-5 pt-5 rounded-b-lg pb-9">
                 <h2 class="subjudul-project">
                   <p>CoffeList</p>
-                  <span class="font-bold px-3 py-1 bg-sky-600 text-base text-white rounded-full">React JS</span>
-                  <span class="font-bold px-3 py-1 bg-sky-400 text-base text-white rounded-full">Tailwind CSS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-600">React JS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-400">Tailwind CSS</span>
                 </h2>
                 <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Slicing aplikasi List Menu Coffe. dari API devchallenges.io</span>
               </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="shadow-lg w-full bg-white dark:bg-yellow-50">
+              <div class="w-full bg-white shadow-lg dark:bg-yellow-50">
                 <div class="relative group">
                   <img src="img/project/TodoApp_Vanilla-JS.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
                   <a href="https://todoapp-vanilla-js.vercel.app/" target="_blank" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
                 </div>
-              <div class="px-5 pb-9 pt-5 rounded-b-lg">
+              <div class="px-5 pt-5 rounded-b-lg pb-9">
                 <h2 class="subjudul-project">
                   <p>TodoApp Vanilla-JS</p>
-                  <span class="font-bold px-3 py-1 bg-yellow-500 text-base text-white rounded-full">Vanilla JS</span>
-                  <span class="font-bold px-3 py-1 bg-sky-400 text-base text-white rounded-full">Tailwind CSS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white bg-yellow-500 rounded-full">Vanilla JS</span>
+                  <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-400">Tailwind CSS</span>
                 </h2>
                 <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">project latihan sederhana manipulasi object window, nodelist dan localStorage</span>
               </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="shadow-lg w-full bg-white dark:bg-yellow-50">
+              <div class="w-full bg-white shadow-lg dark:bg-yellow-50">
                 <div class="relative group">
                   <img src="img/project/pokeApp.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-center overflow-hidden hover:opacity-50 transition duration-500">
                   <a href="https://pokeapp-dz.vercel.app/" target="_blank" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
                 </div>
-                <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <div class="px-5 pt-5 rounded-b-lg pb-9">
                   <h2 class="subjudul-project">
                     <p>pokeAPP</p>
-                    <span class="font-bold px-3 py-1 bg-sky-600 text-base text-white rounded-full">React JS</span>
-                    <span class="font-bold px-3 py-1 bg-sky-400 text-base text-white rounded-full">Tailwind CSS</span>
+                    <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-600">React JS</span>
+                    <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-400">Tailwind CSS</span>
                   </h2>
                   <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Project Fetching API dari pokeAPI. untuk latihan manipulasi data object serta hooks</span>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="shadow-lg w-full bg-white dark:bg-yellow-50">
+              <div class="w-full bg-white shadow-lg dark:bg-yellow-50">
                 <div class="relative group">
                   <img src="img/project/react-crud.png" alt="img" class="w-full h-[35vh] rounded-bl-xl object-cover object-top overflow-hidden hover:opacity-50 transition duration-500">
                   <a href="https://github.com/dzulfikar2403/react-crud" class="invisible absolute top-[50%] -translate-y-[50%] left-[50%] -translate-x-[50%] transition duration-500 group-hover:visible"><img src="img/171454_link_icon.svg" width="50px" alt="link"></a>
                 </div>
-                <div class="px-5 pb-9 pt-5 rounded-b-lg">
+                <div class="px-5 pt-5 rounded-b-lg pb-9">
                   <h2 class="subjudul-project">
                     <p>React-crud w/ JSON Server</p>
-                    <span class="font-bold px-3 py-1 bg-sky-600 text-base text-white rounded-full">React JS</span>
-                    <span class="font-bold px-3 py-1 bg-sky-400 text-base text-white rounded-full">Tailwind CSS</span>
+                    <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-600">React JS</span>
+                    <span class="px-3 py-1 text-base font-bold text-white rounded-full bg-sky-400">Tailwind CSS</span>
                 </h2>
                 <span class="leading-relaxed text-slate-600 sm:text-lg md:text-xl">Impemlentasi CRUD sederhana dengan json-server dan mengolah interaktif component saat fetching</span>
               </div>
@@ -311,9 +311,9 @@
           </div>
 
         </div>
-        <div class="pagination_ absolute w-full bottom-0">
+        <div class="absolute bottom-0 w-full pagination_">
           <!-- If we need pagination -->
-          <div class="swiper-pagination mt-4"></div>
+          <div class="mt-4 swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -322,17 +322,17 @@
     <!-- Quotes -->
     <section id="quotes" class="py-24 dark:bg-secondDark">
       <div class="container mx-auto">
-        <div class="w-full px-4 flex flex-col text-center justify-center items-center">
+        <div class="flex flex-col items-center justify-center w-full px-4 text-center">
           <div class="font-sans"> 
-            <span class="text-3xl py-2 md:text-5xl lg:text-6xl"><i class="fa-solid fa-quote-left" style="color: #46b48a;"></i></span>
-            <h1 class="py-1 font-bold text-xl md:text-2xl lg:text-3xl dark:text-white">Dzulfikar Omar Y.</h1>
+            <span class="py-2 text-3xl md:text-5xl lg:text-6xl"><i class="fa-solid fa-quote-left" style="color: #46b48a;"></i></span>
+            <h1 class="py-1 text-xl font-bold md:text-2xl lg:text-3xl dark:text-white">Dzulfikar Omar Y.</h1>
             <h3 class="text-sm text-teal-500 md:text-xl">Student of Vocational High School</h3> 
           </div>
-          <div class=" py-7 w-full font-light italic xl:w-1/2 px-4">
+          <div class="w-full px-4 italic font-light py-7 xl:w-1/2">
             <span class="text-4xl grayscale md:text-5xl lg:text-6xl dark:text-slate-50">"If You Can't Compete, You Must be Colaborate!"</span>
           </div>
           <div class="py-2">
-            <img src="img/dzull-profil-rounded.png" alt="profile" class="overflow-hidden rounded-full object-cover object-center ring-2 ring-teal-700 w-10 h-10"  >
+            <img src="img/dzull-profil-rounded.png" alt="profile" class="object-cover object-center w-10 h-10 overflow-hidden rounded-full ring-2 ring-teal-700"  >
           </div>
         </div>
       </div>
@@ -341,25 +341,25 @@
 
     <!-- contacts -->
     <section id="contact" class="py-28 sm:py-32 dark:bg-dark">
-      <div class="w-full px-4 flex flex-col text-center justify-center">
+      <div class="flex flex-col justify-center w-full px-4 text-center">
         <div class="mx-auto">
-          <h1 class="text-lg font-bold font-sans text-section uppercase py-2 sm:text-xl ">Contact</h1>
-          <h3 class="text-2xl font-bold py-2 sm:max-w-none sm:text-2xl dark:text-white">Hubungi lewat sini!</h3>
+          <h1 class="py-2 font-sans text-lg font-bold uppercase text-section sm:text-xl ">Contact</h1>
+          <h3 class="py-2 text-2xl font-bold sm:max-w-none sm:text-2xl dark:text-white">Hubungi lewat sini!</h3>
           <p class="max-w-sm text-sm text-secondDark">ayo tehubung dengan saya untuk sharing pengalaman satu sama lain di bidang teknologi</p>
-          <p class="py-1 text-red-500 font-medium">Maaf, form action masih belum dikaitkan</p>
+          <p class="py-1 font-medium text-red-500">Maaf, form action masih belum dikaitkan</p>
         </div>
         <form action="" class="py-4 max-w-2xl relative left-[50%] -translate-x-[50%]">
           <div class="w-full px-4 py-3 text-start">
-            <label for="nama" class="cursor-pointer font-semibold text-color">Nama</label>
-            <input type="text" class="bg-slate-200 py-1 px-2 w-full rounded focus:outline-none focus:ring-1 focus:ring-cyan-400" id="nama" required>
+            <label for="nama" class="font-semibold cursor-pointer text-color">Nama</label>
+            <input type="text" class="w-full px-2 py-1 rounded bg-slate-200 focus:outline-none focus:ring-1 focus:ring-cyan-400" id="nama" required>
           </div>
           <div class="w-full px-4 py-3 text-start">
-            <label for="email" class="cursor-pointer font-semibold text-color">email</label>
-            <input type="email" class="bg-slate-200 py-1 px-2 w-full rounded focus:outline-none focus:ring-1 focus:ring-cyan-400" id="email"" required>
+            <label for="email" class="font-semibold cursor-pointer text-color">email</label>
+            <input type="email" class="w-full px-2 py-1 rounded bg-slate-200 focus:outline-none focus:ring-1 focus:ring-cyan-400" id="email"" required>
           </div>
           <div class="w-full px-4 py-3 text-start">
-            <label for="textArea" class="cursor-pointer font-semibold text-color">Pesan</label>
-            <textarea type="text" class="bg-slate-200 py-1 h-28 px-2 w-full rounded focus:outline-none focus:ring-1 focus:ring-cyan-400" id="textArea""></textarea>
+            <label for="textArea" class="font-semibold cursor-pointer text-color">Pesan</label>
+            <textarea type="text" class="w-full px-2 py-1 rounded bg-slate-200 h-28 focus:outline-none focus:ring-1 focus:ring-cyan-400" id="textArea""></textarea>
           </div>
           <div class="w-full px-4">
             <button type="submit" class="w-1/2 py-1 bg-gradient-to-tr from-section from-38% via-color via-55% to-footer shadow-sm font-semibold text-white rounded-full hover:shadow-md hover:brightness-110 transition duration-300 ease-out">Kirim</button>
@@ -371,31 +371,31 @@
     <!-- footer -->
     <footer>
       <div class="flex flex-wrap bg-indigo-950 dark:bg-gray-800">
-        <div class="w-full px-4 text-center py-5 md:w-1/3 text-neutral-400">
-          <h2 class="text-yellow-400 text-bold text-xl py-2">Dzul.Portfolio</h2>
-          <span class="text-slate-500 py-1 text-xs">ayo tehubung dengan saya untuk menjalin kolaborasi yang bermanfaat di bidang teknologi dan pengembangan aplikasi web.</span>
-          <div class="flex gap-3 py-3 justify-center">
+        <div class="w-full px-4 py-5 text-center md:w-1/3 text-neutral-400">
+          <h2 class="py-2 text-xl text-yellow-400 text-bold">Dzul.Portfolio</h2>
+          <span class="py-1 text-xs text-slate-500">ayo tehubung dengan saya untuk menjalin kolaborasi yang bermanfaat di bidang teknologi dan pengembangan aplikasi web.</span>
+          <div class="flex justify-center gap-3 py-3">
             <a href="https://github.com/dzulfikar2403" target="_blank"><svg role="img" width="20px" height="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
             <a href="https://www.linkedin.com/in/dzulfikar-omar-yasir-368138319/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="23px" height="23px" viewBox="0 0 50 50" class="fill-current"><path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path></svg></a>
             <a href="https://www.instagram.com/dzullfi.24/" target="_blank"><svg role="img" width="20px" height="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
           </div>
         </div>
         <div class="w-full px-4 py-5 md:w-1/3">
-          <ul class="text-slate-400 text-left ">
+          <ul class="text-left text-slate-400 ">
             <li class="py-4 ">
-              <span><i class="fa-solid fa-location-dot p-2 rounded bg-slate-300"></i> jl.abdul wahab perum telaga jambu,Sawangan,depok</span>
+              <span><i class="p-2 rounded fa-solid fa-location-dot bg-slate-300"></i> jl.abdul wahab perum telaga jambu,Sawangan,depok</span>
             </li>
             <li class="py-4">
-              <span><i class="fa-solid fa-phone  p-2 rounded bg-slate-300"></i> 081511921708</span>
+              <span><i class="p-2 rounded fa-solid fa-phone bg-slate-300"></i> 081511921708</span>
             </li>
             <li class="py-4">
-              <a class="text-cyan-500"><i class="fa-solid fa-envelope text-slate-500 p-2 rounded bg-slate-300"></i> dzulfikar2403@gmail.com</a>
+              <a class="text-cyan-500"><i class="p-2 rounded fa-solid fa-envelope text-slate-500 bg-slate-300"></i> dzulfikar2403@gmail.com</a>
             </li>
           </ul>
         </div>
         <div class="w-full px-4 py-5 md:w-1/3">
-          <h3 class="text-2xl text-white font-medium">Categories</h3>
-          <ul class="text-slate-400 text-sm ">
+          <h3 class="text-2xl font-medium text-white">Categories</h3>
+          <ul class="text-sm text-slate-400 ">
             <li class="py-2"><p>Programing</p></li>
             <li class="py-2"><p>Technology</p></li>
             <li class="py-2"><p>Portfolio</p></li>
@@ -403,9 +403,9 @@
         </div>
         <div class="w-full px-4 text-slate-400 pb-14 ">
           <hr class=" bg-slate-400">
-          <div class="py-5 flex flex-wrap justify-center">
+          <div class="flex flex-wrap justify-center py-5">
             <h3 class="py-2">Copyright ©️ 2023 All Reserved by <span class="underline hover:text-cyan-500">Dzulfikar</span></h3>
-            <div class="flex justify-center items-center gap-4">
+            <div class="flex items-center justify-center gap-4">
               <h4 class="py-2">_Made by </h4>
                 <span><i class="fa-brands fa-html5" style="color: #ed811d;"></i></span> 
                 <span><i class="fa-brands fa-css3-alt" style="color: #5c8ee6;"></i></span> 
