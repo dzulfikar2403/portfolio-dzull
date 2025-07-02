@@ -1,0 +1,4 @@
+User-agent= *
+Allow: /
+
+Sitemap: https://www.dzulfikar2403.my.id/sitemap.xml
